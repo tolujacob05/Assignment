@@ -5,42 +5,58 @@
 
 .row {
     height: 100%;
-    display: flex;
+    /* display: flex;   */
     border-width: 5px;
     border-style: solid;
     border-color: red;
     border-image: initial;
     margin: 0 -5px;
+    
+
 
 }
 
-.sse{
-    border: 2px solid black;
-    height: 80px;
-    float: left;
-    width: 25%;
-    padding: 0 10px;
+.columnA{
+  color: blue;
+  display: flex;
+  justify-content: space-around;
+  
+  
+    }
 
-}
+    .flexitem1{
+      color: #000000;
+      
+      
+    }
 
-.row:after {
+
+
+
+
+
+ .row:after {
     content: "";
     display: table;
     clear: both;
-}
+} 
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-    padding: 16px;
-    text-align: center;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /*this adds the "card" effect  */
+    padding: 20px;
     background-color: #f1f1f1;
+    height: 200px;
+    width: 500px;
   }
 
-  @media screen and (max-width: 600px) {
+  /* @media screen and (max-width: 600px) {
     .column {
       width: 100%;
-      display: block;
+       display: block; 
       margin-bottom: 20px;
     }
-  }
+  }  */
+  
 
+
+ 
